@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Primeiro formulário escrito, ainda, sob orientação</h1>
+        <p>Aqui será apresentado um formulário construído de forma livre. Deverão ser cumpridos alguns requisitos.</p> <br>
+        <h2>Entre os requisitos estão: </h2> <br>
+        <img src="./imagens/requisitos1.png" alt="Primeiro conjunto de requisitos."> <br>
+        <img src="./imagens/requisitos2.png" alt="Segundo conjunto de requisitos."> <br>
+        <h2>Além destes existem mais alguns detalhes, que seguem abaixo:</h2> <br>
+        <p> Quanto as matérias só pode ser selecionada uma única opção.
+            Os turnos disponíveis devem ser de multipla escolha. Nível de escolaridade é de escolha única.
+            O campo para descrição de si mesmo deve ter no máximo 200 caracteres.
+            O form deve ter "id", "nome".
+            O campo com as identificações de matéria deve ter apenas um "id".
+            Deve ser dado atenção à semântica e a acessibilidade.
+        </p> <br>
+
+        
+    </header>
+    
+    <main>
+        <h2>Segue abaixo o formulário: </h2><br>
+
+        <form action="">
+          <label for="nome">Nome completo: </label>
+          <input type="text" id="nome" name="nome" required /> <br />
+
+          <label for="email">E-mail: </label>
+          <input type="email" id="email" name="email" required /> <br />
+
+          <label for="idade">Idade: </label>
+          <input type="number" id="idade" name="idade" required /> <br />
+
+          <label for="assunto">Assunto: </label>
+          <input type="text" id="assunto" name="assunto" size="50" placeholder="Atualização de cadastro ou primeiro cadastro" required /> <br />
+
+          <p>Selecione os turnos disponíveis de seu interesse:</p>
+
+<input type="checkbox" id="manha" name="turnos" value="manha">
+<label for="manha">Manhã</label><br>
+
+<input type="checkbox" id="tarde" name="turnos" value="tarde">
+<label for="tarde">Tarde</label><br>
+
+<input type="checkbox" id="noite" name="turnos" value="noite">
+<label for="noite">Noite</label> <br>
+<br>
+<br>
+
+          <label for="materia">Para qual materia você está se matriculando para lecionar?: </label> <br>
+          
+
+          <select name="materia" id="materia" required>
+            <option value="" disabled selected>Selecione uma matéria</option>
+            <option value="matematica">Matemática</option>
+            <option value="portugues">Português</option>
+            <option value="biologia">Biologia</option>
+            <option value="ciencias">Ciências</option>
+            <option value="historia">História</option>
+            <option value="geografia">Geografia</option>
+            <option value="artes">Artes</option>
+          </select>
+          <br />
+          <br>
+          <br>
+
+
+          <label for="escolaridade">Nível de Escolaridade:</label><br>
+
+<select id="escolaridade" name="escolaridade" required>
+    <option value="" disabled selected>Selecione seu nível</option>
+    <option value="fundamental_incompleto">Ensino Fundamental Incompleto</option>
+    <option value="fundamental_completo">Ensino Fundamental Completo</option>
+    <option value="medio_incompleto">Ensino Médio Incompleto</option>
+    <option value="medio_completo">Ensino Médio Completo</option>
+    <option value="superior_incompleto">Ensino Superior Incompleto</option>
+    <option value="superior_completo">Ensino Superior Completo</option>
+    <option value="pos_graduacao">Pós-graduação / Mestrado / Doutorado</option>
+</select> <br>
+<br>
+<br>
+
+
+
+          <label for="descricao">Faça uma descrição sobre você: </label> <br>
+
+          <textarea
+            name="descricao"
+            id="descricao"
+            placeholder="Máximo de 200 caracteres"
+            maxlength="200"
+            cols="50"
+            rows="4️"
+            required
+          ></textarea>          
+          <br />
+
+          <input type="checkbox" id="inscricao" name="inscricao" />
+          <label for="inscricao"
+            >Deseja ser informado das nossas novidades por E-mail? Fique por dentro.</label
+          >
+
+          <br />
+
+          <input type="submit" value="Envial mensagem" />
+         
+        </form>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
