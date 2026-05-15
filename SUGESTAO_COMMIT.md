@@ -1,11 +1,21 @@
 # Sugestão de commit
 
-**Summary**
-```text
-docs: organizar laboratório de aprendizado Primeiro Formulário -SCTEC
+## Repertório
+
+`primeiroformsctec`
+
+## Summary
+
+```txt
+docs: organizar formulário SCTEC como laboratório
 ```
 
-**Description**
-```text
-Organiza materiais de estudo e laboratório, separando aprendizado de produção institucional, com notas de segurança, autoria e próximos passos.
+## Description
+
+```txt
+Organiza o primeiro formulário SCTEC como laboratório de estudo, com revisão antes de publicação e proteção contra dados sensíveis indevidos.
+
+Inclui arquivos de governança, segurança, classificação de conteúdo, instruções para Charlie, .gitignore, .env.example, manifesto e sugestão de commit.
+
+Este commit encerra o Pacote Governança em pré-Mão na Massa e prepara a base para o próximo pacote de alterações visuais.
 ```
