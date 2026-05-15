@@ -1,17 +1,9 @@
 # Primeiro Formulário SCTEC
 
-## Repertório
+Repertório: `primeiroformsctec`
 
-`primeiroformsctec`
+Status: existente
 
-## Status
+Mão na Massa Final — padrão visual, assinatura, governança e orientação obrigatória.
 
-existente
-
-## Fase
-
-Pré-Mão na Massa — Pacote Governança encerrado.
-
-## Finalidade
-
-Organiza o primeiro formulário SCTEC como laboratório de estudo, com revisão antes de publicação e proteção contra dados sensíveis indevidos.
+© Jus 9 Tecnologia Jurídica — software livre, autoria preservada.
